@@ -89,12 +89,64 @@ a, a:hover {text-decoration: none;}
     margin-right: 40px;
 }
 
+.nav li {
+    float: left;
+    margin-right: 40px;
+    padding-top: 5px;
+}
+
+.nav li:last-child {
+    margin-right: 0;
+}
+
+.nav a {
+    text-transform: uppercase;
+    font: 14px Arial sans-serif;
+    color: #fff;
+}
+
+.nav a:hover {
+    color: #f1c736;
+}
+
 #home { 
+    padding-top: 270px;
+    text-align: center;
+    color: #fff;
     height: 700px;
     background: #222 url(../img/home-bg.jpg) no-repeat center bottom;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+}
+
+#home h3 {
+    margin-bottom: 40px;
+    font: 40px/40px Arial, sans-serif;
+}
+
+#home h1 {
+    text-transform: uppercase;
+    font: 75px/75px Arial, sans-serif;
+    margin-bottom: 50px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 20px 30px;
+    background: #FED136;
+    font: bold 24px/24px Arial, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #fff;
+    border: 1px;
+    -webkit-border-radious: 4px;
+        -moz-border-radious: 4px;
+        -o-border-radious: 4px;
+           border-radious: 4px;
+}
+
+.btn:hover {
+    background: #daae17;
 }
